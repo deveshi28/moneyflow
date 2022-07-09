@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Advisor Devendra</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- style link -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive-style.css">
+	<style >
+		#loading{
+  			position: fixed;
+  			width: 100%;
+  			height: 100%;
+  			background: #fff url('https://www.animatedimages.org/cat-angels-60.htm')
+  			no-repeat center;
+  			/*z-index: 99999;*/
+  			
+		}
+	</style>
+</head>
+<body onload="myfunction()">
+
+	<!-- loader -->
+	<div id="loading">	
+	</div><!--loading end-->
+
+
+	<!-- navbar start -->
+	<header class="header" >
+		<nav class="navbar navbar-expand-lg bg-light fixed-top" style="height: 80px">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="image/logo.png" class="img-fluid" style="height: 100px;">
+				</a>
+				<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fas fa-stream navbar-toggler-icon"></i>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav menu-navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#home" >HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html" >ABOUT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="offering.html" >OFFERINGS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link"href="contact.html" >CONTACT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="login.html" style="color: red;">LOGIN</a>
+						</li>
+					</ul>
+				</div>
+			</div><!--container end-->
+		</nav>
+	</header>
+	<!-- navbar end -->
+	<!-- bnner start -->
+	<section class="banner mt-5 " >
+		<div class="container-fluid">
+			<div class="row align-item-center ">
+				<!-- slider start -->
+				 <div class="slide" data-bs-ride="carousel" id="a">
+					<div class=" calousel-inner ">
+						<div class="carousel-item active carousel" data-bs-interval="2000" >
+							<img src="image/slider/slider1.jpg" class="carousel" >
+							<div class="carousel-caption">
+								<h3>Small steps take you long way..!!</h3>
+							</div>
+						</div>
+						<div class="carousel-item carousel" data-bs-interval="2000" >
+							<img src="image/slider/slider2.jpg" class="carousel">
+						</div>
+					</div>
+				</div> <!--slider end-->
+			</div><!--row end-->
+		</div><!--container-fluid end-->
+	</section> <!-- banner end -->
+	<!-- few word banner start -->
+	<section class="banner1 " id="shadow">
+		<div class="py-5 bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="tittle-box text-center">
+						<h2>Few Words <b>About Us</b></h2>
+					</div>
+				</div><!--row end-->
+				<div class="row justify-content-between align-item-center">
+					<div class="col-md-6 pt-3" id="shadow">
+						<img src="image/image.jpg" style="width: 100%;height: 300px; ">
+					</div>
+					<div class="col-md-6 pt-3">
+						<p style="color: black !important;">In a era of constant changing and volatile financial Market, Investors need an Qualified /Trained and unbiased professional to assist them in achieving their short term and long term Investment goal. At Makeurmoneygrow our core aim is to assist our clients with dedication and integrity, meet their expectations and build enduring relationship.</p>
+					</div>
+				</div><!--row end-->
+			</div><!--container end-->	
+		</div><!--py5 end-->
+	</section><!--banner end-->
+	<!-- few word banner end -->
+	<!-- our service page begin -->
+	<section class="offering ">
+		<div class="py-5 bg-light">
+			<div class="container">
+				<div class="row ">
+					<div class="tittle-box text-center">
+						<h2>OUR SERVICES</h2>
+					</div>
+				</div><!--row end-->
+				<div class="row text-center">
+					<div class="col-md-3 item"  >
+						<img src="image/insurance.jpg"id="shadow">
+						<h5>Insurance</h5>
+					</div>
+					<div class="col-md-1 item">	
+					</div>
+					<div class="col-md-3 item" >
+						<img src="image/mutualfund.jpg" id="shadow">
+						<h5>Mutual Funds</h5>
+					</div>
+					<div class="col-md-1 item" >				
+					</div>
+					<div class="col-md-3 item">
+						<img src="image/fixed.jpg" id="shadow">
+						<h5>Fixed Deposits, Bonds</h5>
+					</div>
+				</div><!--row end-->
+				<div class="row text-center">
+					<div class="col-md-3 item">
+						<img src="image/etf.jpg" id="shadow">
+						<h5>International Equity and ETFs</h5>
+					</div>
+					<div class="col-md-1">	
+					</div>
+					<div class="col-md-3 item">
+						<img src="image/pms.jpg" id="shadow">
+						<h5>PMS and AIF</h5>
+					</div>	
+					<div class="col-md-1">				
+					</div>
+					<div class="col-md-3 item">
+						<img src="image/family.jpg" id="shadow">
+						<h5>Family Office</h5>
+					</div>
+				</div><!--row end-->
+			</div><!--container end-->
+		</div><!--py-5 end-->
+	</section><!--offering-->
+
+	<!-- our service page ends -->
+	<!-- comprision page start -->
+	<section class="comparison bg-warning text-center pt-5" id="shadow">
+		<div class="py-5">
+			<div class="container">
+				<div>
+					<h1>“Quarterback” Advisor vs “One-Stop Shop?</h1>
+					<h2>How we build your advisory team.</h2>
+					<img src="image/vs-image.png" class="img-fluid">
+				</div>
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<h3>Advisor as “Pro Quarterback”</h3>
+					</div>
+					<div class="col-md-6 text-center">
+						<h3>“One-Stop Shop”</h3>
+					</div>
+				</div><!--row end-->
+				<div>
+					<p>Our “Pro Quarterback” approach selects from among Attorneys, Accountants, and other respected experts in your locale, including people you already know and trust. To bring your plans to fruition, we often find that this approach is superior than one-stop shops whose in-house personnel are typically less-experienced. One-stop shop might sound attractive but often it’s a marketing gimmic. “Pro Quarterback” assures that all advisors are on the same page and likely more cost-effective over the long run.</p>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<!-- comprision page end -->
+	<!-- our distinction start -->
+	<section class="dist bg-light pb-5" id="shadow">
+		<div class="py-5">
+			<div class="container ">
+				<div class="pb-3">
+					<h2>Our Distinctions</h2><br>
+				</div>
+				<div class="row">
+					<div class="col-md-5 pt-3 bg-success text-center">
+						<img src="image/dis-1.jpg"  class="img-fluid mb-3" id="shadow">
+						<h4><b>Leaders in Responsible Investment</b></h4>
+						<p style="font-size: 23px!important;">Investors’ money has real power to create positive impact. Impact is only optimized when investments are properly directed. Bad headlines stem from misdirected investment.<br> Your Investments can and should make a positive impact. Your portfolio holdings should be honorable and demonstrate your commitment to a better societal outcome.</p>
+					</div>
+					<div class="col-md-2 " >
+					</div>
+					<div class="col-md-5 pt-3 bg-success text-center">
+						<img src="image/dis-2.jpg" class=" img-fluid mb-3" id="shadow">
+						<h4><b>Keeping you informed</b></h4>
+						<p style="font-size: 23px!important;">Useful and understandable reviews each and every quarter
+						Robust client portal with 24/7/365 access<br> Frequent newsletters <br> 24-hour turnaround policy, to answer questions and help you meet your needs.</p>
+					</div>
+				</div><!--row end-->
+			</div><!--container end-->
+		</div><!--py-5 end-->
+	</section><!-- our distinction end -->
+	
+	<!-- testimonial start -->
+	<section class="test">
+		<div class="py-5">
+			<div class="container">
+				<div>
+					<h1>TESTIMONIALS</h1><br><br>
+				</div>
+				<div>
+					<p>We thank u for the work u have done for us over the past yrs. The expertise & attention with which you have handled our financial affairs could not be faulted. Your advice on financial planning has saved us significant amount of money. May u prosper along with ur clients.</p>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<!-- testimonial end -->
+	<!-- form start -->
+	<section class="form mt-5">
+		<div class="py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 text-center ">
+						<img src="image/t2.jpg" class="img-fluid">
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-6 ">
+						<div class="card shadow-lg ">
+							<div>
+								<h3 class="text-center bg-info text-white">Talk to an Expert</h3><br>
+							</div>
+							<div class="card-body">
+								<form>
+									<div class="mb-3">
+										<select class="form-control">
+											<option>I'm intrested in</option>
+											<option>Insuarance</option>
+											<option>Mutual Funds</option>
+											<option>Fixed Deposits, Bonds</option>
+											<option>International Equity and ETFs</option>
+											<option>PMS and AIF</option>
+											<option>Family Office</option>
+										</select>
+									</div>
+									<div class="mb-3">
+										<input type="mobile" name="" placeholder="Enter your contact number" class="form-control">
+									</div>
+									<button class="btn btn-info">Call Me</button>
+								</form><!--form end-->
+							</div><!--card body end-->
+						</div><!--card end-->
+					</div>
+				</div><!--row end-->
+			</div><!--container end-->
+		</div><!--py-5 end-->
+	</section>
+	<!-- form end -->
+	<!-- footer start -->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<br><br>
+					<h1>MONEYFLOW</h1>
+				</div>
+				<div class="col-md-4">
+					<br><br>
+					<h4>Terms of Service</h4>
+					<h4>Privacy Policy</h4>
+				</div>
+				<div class="col-md-4">
+					<br><br>
+					<h4>Ask Us</h4>
+					<h4>Offices in Atlanta, GA and Denver, CO</h4>
+					<h4>Call: 800-352-8390</h4>
+					<h4>Email: info@moneyflow.com</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer end -->
+	
+
+
+
+	<script >
+		var preload = document.getElementById("loading")
+		function myfunction(){
+			preload.style.display='none';
+		}
+	</script>
+	<!-- Button trigger modal -->
+	<div class="modal fade" id="aa">
+	  <div class="modal-dialog modal-md" > <!--modal-xl,sm,lg--->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">Form</h5>
+
+	         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+	      </div><!---modal header end--->
+	      <div class="modal-body">
+	        <h1>hello</h1>
+	      </div><!-- modal body--->
+	  </div><!---model dialog--- end=--->
+	</div>
+	<!---modal end---> 
+	<script >
+		$(document).ready(function(){
+			$('#a').modal('show');
+		})
+	</script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
